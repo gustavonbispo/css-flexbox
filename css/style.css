@@ -9,12 +9,13 @@
   margin-top: 36px;
   height: 15vh;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  flex-direction: row;
+  align-items: stretch;
   border: dashed 5px black;
 }
 
 .item {
+  width: 100px;
   --hue: 0;
   text-align: center;
   background-color: hsl(var(--hue), 100%, 70%);
