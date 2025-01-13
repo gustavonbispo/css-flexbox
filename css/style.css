@@ -19,6 +19,9 @@
   flex: 1 1 auto;
 }
 
+.item:nth-child(2) {
+  order: -1;
+}
 
 footer {
   margin-top: 300px;
