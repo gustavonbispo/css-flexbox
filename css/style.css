@@ -6,8 +6,11 @@
 }
 
 .container {
+  margin-top: 36px;
+  height: 15vh;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   border: dashed 5px black;
 }
 
@@ -15,4 +18,9 @@
   --hue: 0;
   text-align: center;
   background-color: hsl(var(--hue), 100%, 70%);
+}
+
+footer {
+  margin-top: 300px;
+  text-align: center;
 }
