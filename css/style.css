@@ -6,16 +6,24 @@
 }
 
 .container {
+  height: 50vh;
   display: flex;
-  flex-direction: column;
   border: dashed 5px black;
 }
 
 .item {
   --hue: 0;
   text-align: center;
+  align-content: center;
   background-color: hsl(var(--hue), 100%, 70%);
-  flex-basis: 150px;
+  flex-grow: 1;
+  /* flex-basis: 120px; */
+  /* flex-shrink: 2; */
+}
+
+.item:nth-child(2) {
+  flex-grow: 2;
+  /* flex-shrink: 1; */
 }
 
 footer {
