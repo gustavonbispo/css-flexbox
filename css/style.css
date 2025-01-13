@@ -6,16 +6,15 @@
 }
 
 .container {
-  margin-top: 36px;
-  height: 15vh;
+  height: 50vh;
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 50px;
   border: dashed 5px black;
+  align-content: space-between;
+  flex-wrap: wrap;
 }
 
 .item {
+  width: 120px;
   --hue: 0;
   text-align: center;
   background-color: hsl(var(--hue), 100%, 70%);
